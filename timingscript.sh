@@ -1,7 +1,6 @@
 #!/bin/zsh
 # Variables
 TOTALTIME=0
-uTOTALTIME=0
 REPS=5
 FORCE=false
 
