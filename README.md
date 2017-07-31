@@ -12,8 +12,17 @@ Skeleton:
  ./timingscript.sh [options] <command>
  ```
 
-Example:
+Examples:
 
 ```sh
 ./timingscript.sh -r 30 python do-calculus.py integrals.json
 ```
+
+```sh
+./timingscript.sh -f Java ThisWillThrowAnErrorButIWantToTimeItAnyway
+```
+
+## Options
+
+* ```-r <n>```: run the command ```n``` times.
+* ```-f```: force the command to run even if it throws an error.
